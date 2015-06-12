@@ -1,0 +1,3 @@
+jQuery(document).ready(function(){initTopButton();});function initTopButton(){var $=jQuery;jQuery("#back-top").hide();jQuery(function(){jQuery(window).scroll(function(){if(jQuery(this).scrollTop()>100){jQuery('#back-top').fadeIn();}else{jQuery('#back-top').fadeOut();}});jQuery('#back-top a').click(function(){jQuery('body,html').animate({scrollTop:0},800);return false;});});};var headerView=function(){var scroll=jQuery(window).scrollTop();if(scroll<=115){jQuery("body").removeClass("compact");}
+else{jQuery("body").addClass("compact");}}
+headerView();jQuery(window).scroll(function(){headerView();});

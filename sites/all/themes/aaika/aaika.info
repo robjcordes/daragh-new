@@ -1,0 +1,97 @@
+name = Aaika
+description = A Snappytheme.
+core = 7.x
+base theme = bootstrap
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+regions[navigation]     = 'Navigation'
+regions[top_left]			= 'Top Left'
+regions[top_right]			= 'Top Right'
+regions[menu_right]			= 'Menu Right'
+regions[menu_right2]			= 'Menu Right 2'
+regions[slider_wrapper1]	= 'Slider Wrapper 1'
+regions[slider_wrapper2]	= 'Slider Wrapper 2'
+regions[slider_wrapper3]	= 'Slider Wrapper 3'
+regions[slider_wrapper4]	= 'Slider Wrapper 4'
+regions[header]         = 'Top Bar'
+regions[highlighted]    = 'Highlighted'
+regions[help]           = 'Help'
+regions[masterslider]		= 'Master Slider'
+regions[content]        = 'Content'
+regions[sidebar_first]  = 'Primary'
+regions[sidebar_second] = 'Secondary'
+regions[footer1]        = 'Footer1'
+regions[footer2]        = 'Footer2'
+regions[footer3]        = 'Footer3'
+regions[footer4]        = 'Footer4'
+regions[copyright]      = 'Copyright'
+regions[page_top]       = 'Page top'
+regions[page_bottom]    = 'Page bottom'
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+
+stylesheets[all][] = css/magnific-popup.css
+stylesheets[all][] = css/simpleline-icons/simple-line-icons.css
+stylesheets[all][] = css/component.css
+stylesheets[all][] = css/accordion.css
+;stylesheets[all][] = css/animations.min.css
+stylesheets[all][] = js/progressbar/ui.progress-bar.css
+stylesheets[all][] = css/reset.css
+stylesheets[all][] = css/slidepanel.css
+stylesheets[all][] = js/timeline/timeline.css
+stylesheets[all][] = js/ihovereffects/main.css
+stylesheets[all][] = css/style.css
+stylesheets[all][] = js/mainmenu/bootstrap.min.css
+stylesheets[all][] = css/responsive-tabs.css
+stylesheets[all][] = css/responsive-tabs3.css
+stylesheets[all][] = css/responsive-layouts.css
+stylesheets[all][] = css/shortcodes.css
+stylesheets[all][] = css/custom.css
+stylesheets[all][] = css/colors.css
+
+; For information on choosing the desired method, please read the Drupal
+; Bootstrap sub-theme "how-to" documentation:
+; https://drupal.org/node/1978010
+
+; ;----------------------------------
+; ; METHOD 1: Bootstrap Source Files
+; ;----------------------------------
+; 
+; ;;;;;;;;;;;;;;;;;;;;;
+; ;; Scripts
+; ;;;;;;;;;;;;;;;;;;;;;
+
+
+
+scripts[] = js/mainmenu/bootstrap.min.js
+scripts[] = js/mainmenu/sticky-main.js
+scripts[] = js/mainmenu/modernizr.custom.75180.js
+scripts[] = js/jquery.magnific-popup.min.js
+scripts[] = js/jquery.classyloader.min.js
+scripts[] = js/scrolltotop/totop.js
+scripts[] = js/jflickrfeed.min.js
+;scripts[] = js/animations.min.js
+scripts[] = js/jquery.animateNumber.min.js
+scripts[] = js/progressbar/progress.js
+scripts[] = js/responsive-tabs.min.js
+scripts[] = js/script.js
+
+;
+; ; Disable BootstrapCDN if using Bootstrap source files in your sub-theme.
+; settings[bootstrap_cdn] = ''
+
+
+; ;-------------------------
+; ; METHOD 2: Bootstrap CDN
+; ;-------------------------
+;
+; Method 2 uses BootstrapCDN, the only thing you might need to provide here
+; is overrides to Bootstrap theme settings. Copy them here from the base theme
+; to override.

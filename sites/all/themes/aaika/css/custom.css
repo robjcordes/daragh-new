@@ -1,0 +1,89 @@
+/*/*/* --------------------------------------------------------	*/
+/* TB mega menu */
+/* --------------------------------------------------------	*/
+.navbar .collapse {display: block !important;}
+.tb-megamenu {position: static;}
+.tb-megamenu .align-left {left:0 !important; width: 100% !important;}
+#boxed .tb-megamenu .align-left {left:-15px !important;}
+#boxed .affix .tb-megamenu .align-left {left:-0px !important;}
+.tb-megamenu {background: none;}
+.tb-megamenu .nav > li > a {
+  border: medium none;  
+  font-family: 'Raleway', sans-serif;  
+  padding: 15px 14px;  
+  font-weight: normal;
+  line-height: 25px;
+}
+.tb-megamenu .nav li.dropdown.active > .dropdown-toggle, .tb-megamenu .nav li.dropdown.open.active > .dropdown-toggle, .tb-megamenu .nav > li.dropdown.open.active > a:hover {
+  background: none;
+  color: #e54c4c !important;
+}
+.tb-megamenu .nav > li > a:focus, .tb-megamenu .nav > li > a:hover,
+.tb-megamenu .nav li.dropdown.open > .dropdown-toggle {  
+  color: #e54c4c;
+  background: none;
+  outline: medium none;
+  text-decoration: none;
+  text-shadow: none;
+  border-radius: 3px;
+}
+#header-style-1 .dropdown-menu, #header-style-1 .yamm .dropdown.yamm-fw .dropdown-menu {
+  position: absolute;
+  top: 100%;  
+  z-index: 1000;  
+  float: left;
+  padding: 0px 0;
+  margin: 2px 0 0;
+  font-size: 13px;
+  list-style: none;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  border-top: 2px solid #777;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+.tb-megamenu .nav  li  .dropdown-menu {border-bottom: 1px solid #d5d5d5 !important;}
+.affix .tb-megamenu .nav > li > .dropdown-menu {margin-top: 18px !important; }
+.affix .tb-megamenu .nav > li.yamm-fw > .dropdown-menu {margin-top: 25px !important;}
+/*.yamm-fw .mega-dropdown-inner {padding: 20px;}*/
+.tb-megamenu .mega-inner {padding: 0 !important;}
+/*.tb-megamenu .nav > li > .dropdown-menu li a {padding: 10px 15px !important;border: none;}*/
+/*.tb-megamenu .dropdown-menu .active > a, .tb-megamenu .dropdown-menu .active > a:hover {background-color: #fafafa !important; }*/
+.tb-megamenu .dropdown-menu .active > a, .tb-megamenu .dropdown-menu .active > a:hover {color: #333;background: #eee;}
+.tb-megamenu-block h2 {margin-top:0;}
+.yamm .dropdown-submenu > .dropdown-menu {margin-left: 10px !important;}
+.tb-megamenu-submenu:hover {display: block !important;}
+.tb-megamenu .btn-navbar {position: absolute; right: 0; top: 0;}
+
+@media screen and (max-width: 999px) {
+#header-style-1.affix {position: relative !important;}
+.tb-megamenu .btn-navbar {background: none;}
+.tb-megamenu .nav-collapse {height: 340px !important; overflow-y: scroll !important; display: none !important;}
+.tb-megamenu .nav-collapse.collapse.in, .tb-megamenu .nav-collapse.in {display: block !important; height: 340px !important; overflow-y: scroll !important;}
+.tb-megamenu .nav-collapse {background: #212121;}
+.tb-megamenu .nav > li.yamm-fw > .dropdown-menu, 
+#header-style-1 .dropdown-menu, 
+#header-style-1 .yamm .dropdown.yamm-fw .dropdown-menu {margin-top: 0 !important; border: none !important; position: relative;}
+#header-style-1 .yamm .dropdown.yamm-fw:hover .dropdown-menu {display: block !important;}
+.tb-megamenu .nav li.dropdown.active > .dropdown-toggle, 
+.tb-megamenu .nav li.dropdown.open.active > .dropdown-toggle, 
+.tb-megamenu .nav > li.dropdown.open.active > a:hover,
+.affix .tb-megamenu .nav > li.yamm-fw > .dropdown-menu {border: none !important; border-radius: 0 !important; font-weight: normal;}
+.tb-megamenu .nav-collapse .nav > li {float: none;}
+.tb-megamenu .nav-collapse .nav > li > a, .tb-megamenu .nav-collapse .dropdown-menu a {border-radius: 0 !important; color: #fff !important;padding: 9px 15px;}
+.tb-megamenu .mega-nav > li a, .tb-megamenu .dropdown-menu .mega-nav > li a {margin-left: 0;}
+/*.tb-megamenu .nav-collapse {margin-top: 16px;}*/
+.tb-megamenu-nav .arrow-up {display: none;}
+.tb-megamenu .nav-collapse .nav > li > a:hover, .tb-megamenu .nav-collapse .nav > li > a:focus {color: #FFF !important;}
+.tb-megamenu .span12.mega-col-nav .mega-inner {padding: 20px;}
+.tb-megamenu .tb-block {margin-top: 20px; display: none;}
+.navbar-header {padding-bottom: 20px;}
+.tb-megamenu .row-fluid, .tb-megamenu .mega-dropdown-menu, .tb-megamenu .row-fluid [class*="span"] {width: 100% !important;min-width: 100% !important;left: 0 !important;margin-left: 0 !important;transform: none !important;-webkit-transform: none !important;-moz-transform: none !important;-ms-transform: none !important;-o-transform: none !important;}
+.tb-megamenu .always-show .mega > .mega-dropdown-menu, .tb-megamenu .always-show .dropdown-menu{display: block!important;}
+}
+@media (min-width: 1000px) {
+.tb-megamenu .nav-collapse.collapse {display: block!important;height: auto!important;padding-bottom: 0;overflow: visible!important;}
+}
+.tb-megamenu .nav > .active > a, .tb-megamenu .nav > .active > a:hover, .tb-megamenu .nav > .active > a:focus {background: none !important; border: 0;
