@@ -416,7 +416,7 @@ function md_slider_view($machine_name, $type="block") {
     drupal_add_js($module_path . '/js/jquery.touchwipe.js');
     drupal_add_js($module_path . '/js/modernizr.js');
     if (variable_get("add_migrate", 0))
-      drupal_add_js($module_path . '/js/jquery-migrate-1.2.1.min.js');
+    drupal_add_js($module_path . '/js/jquery-migrate-1.2.1.min.js');
     drupal_add_js($module_path . '/js/jquery.easing.js');
     drupal_add_js($module_path . '/js/md-slider.js');
 

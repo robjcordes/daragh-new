@@ -231,7 +231,18 @@
     if ($element_full['stopani'] != 'none' && $element_full['stopani'] != '') {
       $output[] = "data-easeout='{$element_full['stopani']}'";
     }
-
+    if (isset($element_full['paddingtop'])) {
+      $output[] = "data-paddingtop='{$element_full['paddingtop']}'";
+    }
+    if (isset($element_full['paddingright'])) {
+      $output[] = "data-paddingright='{$element_full['paddingright']}'";
+    }
+    if (isset($element_full['paddingbottom'])) {
+      $output[] = "data-paddingbottom='{$element_full['paddingbottom']}'";
+    }
+    if (isset($element_full['paddingleft'])) {
+      $output[] = "data-paddingleft='{$element_full['paddingleft']}'";
+    }
     return implode(' ', $output);
   }
 
