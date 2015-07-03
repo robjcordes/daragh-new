@@ -2044,7 +2044,7 @@ a.logo {
 .features_sec53 {
 	float: left;
 	width: 100%;
-	padding: 115px 0px 120px 0px;
+	padding: 0px 0px 120px 0px;
 	text-align: center;	
 }
 .features_sec53 .box {
@@ -5273,4 +5273,24 @@ body.bg-patterns12 {
   margin-left: auto;
   margin-right: auto;
   background-size: 50px 50px;
+}
+
+.st-accordion-four .panel-group .panel a {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  color: #e54c4c;
+  display: inline;
+  position: relative;
+  line-height: inherit;
+  padding-left: 0px; 
+  outline: none;
+  -webkit-transition: color 0.2s ease-in-out;
+  -moz-transition: color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out;
+  -ms-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+}
+
+.st-accordion-four h4.panel-title a.accordion-toggle {
+  padding-left: 50px; 
 }
