@@ -5294,3 +5294,8 @@ body.bg-patterns12 {
 .st-accordion-four h4.panel-title a.accordion-toggle {
   padding-left: 50px; 
 }
+
+div.url-textfield {
+display: block;
+visibility: hidden
+}
