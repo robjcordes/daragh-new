@@ -1,11 +1,11 @@
 ; $Id:
-name = Isotope - Core
-description = Create reusable Isotope configurations.
+name = Isotope - Example
+description = An example of how to use the Isotope module.
 package = User interface
 core = 7.x
-configure = admin/config/user-interface/isotope
+configure = isotope-example
 
-dependencies[] = ctools
+dependencies[] = views_isotope
 
 ; Information added by Drupal.org packaging script on 2016-02-12
 version = "7.x-2.1"
